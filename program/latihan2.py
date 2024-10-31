@@ -5,8 +5,7 @@ total = 0
 for bulan, laba_bulan in enumerate(laba, start=1):
     laba_bulan = saldo * laba_bulan
     total += laba_bulan
-    saldo += laba_bulan
-    print(f"bulan ke {bulan} laba {laba_bulan}")
+    print(f"Keuntungan bulan ke {bulan} adalah: {laba_bulan}")
 
 print(f"total laba {total}")
-
+print(f"total saldo menjadi {total + saldo}")
