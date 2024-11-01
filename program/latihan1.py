@@ -7,10 +7,10 @@ while True:
         if jumlah > 0:
             break
         else:
-            print("masukan nilai lebih dari 0, silahkan coba lagi")
+            print("Masukan nilai lebih besar dari 0! silahkan coba lagi")
     except ValueError:
-        print("tidak bisa memilih itu, silahkan coba lagi")
-
-for i in range(jumlah):
+        print("!Masukan angka! silahkan coba lagi")
+        
+for data in range(jumlah):
     a = random.uniform(0, 0.5)
-    print(f'Data ke {i+1} => {a}')
+    print(f"Data ke {data+1} => {a}")

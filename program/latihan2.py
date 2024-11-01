@@ -1,4 +1,4 @@
-modal_awal = 100_000_000
+modal_awal = 100000000
 
 def hitung_keuntungan(modal_awal):
   laba = [0, 0, 0.01, 0, 0.05, 0, 0, -0.02]
