@@ -7,7 +7,7 @@ def hitung_keuntungan(modal_awal):
     keuntungan = modal_awal * persentase
     total += keuntungan
     modal_awal += keuntungan
-    print(f"Keuntungan bulan ke-{i} adalah: {modal_awal:.2f}")
+    print(f"Bulan ke-{i}: {modal_awal:.2f}")
   return total
 
 total = hitung_keuntungan(modal_awal)
