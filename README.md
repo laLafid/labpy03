@@ -9,8 +9,13 @@ Soal:
 4. gunakan fungsi random() yang dapat diimport terlebih dahulu
 ```
 
+## Flowchart
+
+![alt text](gambar/flowchart1.png)
 
 ## Struktur [Program](program/latihan1.py)
+
+![alt text](gambar/flowchart1.png)
 
 ```ruby
 Import random
@@ -49,6 +54,7 @@ for
 For ini digunakan untuk memberikan data sebanding dengan nilai yang ada di variable ```jumlah```, kemudian print hasil perhitungan sesuai jumlah yang diminta.
 
 Yang akan terjadi jika program dijalankan:
+
 ![alt text](gambar/latihan1termin.png)
 
 
@@ -62,6 +68,8 @@ baru mulai mendapatkan laba sebesar 1% dan pada bulan ke 5, pendapatan meningkat
 selanjutnya pada bulan ke 8 mengalami penurunan keuntungan sebesar 2%, sehingga laba
 menjadi 3%. Hitung total keuntungan selama 8 bulan berjalan usahanya.
 ```
+
+## Flowchart
 
 
 ## Struktur [Program](program/latihan2.py)
@@ -103,15 +111,21 @@ print(f"Total saldo setelah 8 bulan adalah: {modal_awal + total:.2f}")
 Program akan menampilkan semua itu kepada user.
 
 Yang akan terjadi:
+
 ![alt text](gambar/hasillat2.png)
 
 # Latihan 3
+
 Soal
 ```
 Buat program yang mensimulasikan mesin ATM sederhana. Pengguna memiliki saldo awal
 sebesar Rp 1.000.000, dan dapat menarik uang hingga saldo habis atau memilih untuk
 keluar.
 ```
+
+## Flowchart
+
+![alt text](gambar/flowchart3.png)
 
 ## Struktur [Program](program/latihan3.py)
 
@@ -124,7 +138,7 @@ Ini adalah Variable yang berisi nilai dari uang yang ada.
 ```ruby
 while True:
 ```
-Perulangan ```While``` disini akan terus mengulang program hingga user memilih opsi Keluar.
+Perulangan ```While``` disini akan terus mengulang program.
 
 ```ruby
 print(f"Saldo Anda : {saldo} \n1. Tarik Tunai\n2. Keluar")
@@ -154,4 +168,5 @@ Ini adalah blok kode yang akan berjalan jika user memilih opsi Tarik Tunai, pert
 Ini akan berjalan jika user memilih opsi Keluar.
 
 Yang akan:
+
 ![alt text](gambar/hasillat3.png)
