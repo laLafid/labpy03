@@ -71,6 +71,7 @@ menjadi 3%. Hitung total keuntungan selama 8 bulan berjalan usahanya.
 
 ## Flowchart
 
+![alt text](gambar/flowchart2.png)
 
 ## Struktur [Program](program/latihan2.py)
 
