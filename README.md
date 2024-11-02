@@ -1,6 +1,9 @@
 # Labpy03
 
+Selamat Datang di Labpy
+
 # Latihan 1
+
 Soal:
 ```
 1. Tampilkan n bilangan acak yang lebih kecil dari 0.5.
@@ -15,7 +18,6 @@ Soal:
 
 ## Struktur [Program](program/latihan1.py)
 
-![alt text](gambar/flowchart1.png)
 
 ```ruby
 Import random
@@ -71,7 +73,7 @@ menjadi 3%. Hitung total keuntungan selama 8 bulan berjalan usahanya.
 
 ## Flowchart
 
-![alt text](gambar/flowchart2.png)
+![alt text](gambar/flowchartupdate.png)
 
 ## Struktur [Program](program/latihan2.py)
 
